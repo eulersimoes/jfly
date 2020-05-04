@@ -5,7 +5,7 @@
  */
 package com.esg.jfly.service;
 
-import com.esg.jfly.domain.model.impl.Airplane;
+import com.esg.jfly.domain.entity.Airplane;
 import java.util.List;
 
 /**

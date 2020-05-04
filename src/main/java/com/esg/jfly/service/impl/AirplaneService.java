@@ -5,8 +5,8 @@
  */
 package com.esg.jfly.service.impl;
 
-import com.esg.jfly.domain.model.impl.Airplane;
-import com.esg.jfly.infrastructure.hibernate.repository.AirplaneHibernateRepository;
+import com.esg.jfly.domain.entity.Airplane;
+import com.esg.jfly.infrastructure.hibernate.repository.impl.AirplaneHibernateRepository;
 import com.esg.jfly.service.IAirplaneService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;

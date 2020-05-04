@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.esg.jfly.domain.model.impl;
+package com.esg.jfly.domain.entity;
 
-import com.esg.jfly.domain.entity.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import com.esg.jfly.domain.entity.IEntity;
 
 /**
  *
@@ -15,7 +15,7 @@ import javax.persistence.Table;
  */
 @javax.persistence.Entity
 @Table(name = "AIRPLANE", schema = "jfly")
-public class Airplane implements Entity<Long> {
+public class Airplane implements IEntity<Long> {
     @Id
     private Long id;
 

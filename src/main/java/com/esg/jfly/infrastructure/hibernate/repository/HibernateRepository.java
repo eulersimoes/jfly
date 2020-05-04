@@ -3,9 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.esg.jfly.infrastructure.hibernate.impl;
+package com.esg.jfly.infrastructure.hibernate.repository;
 
-import com.esg.jfly.domain.entity.Entity;
 import com.esg.jfly.infrastructure.hibernate.HibernateQuerySpecification;
 import java.io.Serializable;
 import java.util.List;
@@ -20,6 +19,7 @@ import org.hibernate.SQLQuery;
 import org.hibernate.criterion.Order;
 import org.hibernate.type.Type;
 import org.springframework.beans.factory.annotation.Autowired;
+import com.esg.jfly.domain.entity.IEntity;
 
 /**
  *
@@ -28,7 +28,7 @@ import org.springframework.beans.factory.annotation.Autowired;
  * @param <I>
  */
 @SuppressWarnings("findsecbugs:SQL_INJECTION_HIBERNATE")
-public class HibernateRepository<E extends Entity, I extends Serializable> {
+public class HibernateRepository<E extends IEntity, I extends Serializable> {
     @Autowired
     private SessionFactory sessionFactory;
     private final Class<E> clazz;

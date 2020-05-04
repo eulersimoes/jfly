@@ -9,6 +9,6 @@ package com.esg.jfly.domain.entity;
  *
  * @author euler
  */
-public interface Entity<T> {
+public interface IEntity<T> {
     
 }

@@ -3,13 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.esg.jfly.domain.model;
+package com.esg.jfly.infrastructure.repository;
 
-import com.esg.jfly.domain.model.impl.Airplane;
+import com.esg.jfly.domain.entity.Airplane;
 import java.util.List;
-
-
-
 /**
  *
  * @author euler

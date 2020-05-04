@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.esg.jfly.infrastructure.hibernate.repository;
+package com.esg.jfly.infrastructure.hibernate.repository.impl;
 
-import com.esg.jfly.domain.model.IAirPlaneRepository;
-import com.esg.jfly.domain.model.impl.Airplane;
-import com.esg.jfly.infrastructure.hibernate.impl.HibernateRepository;
+import com.esg.jfly.infrastructure.repository.IAirPlaneRepository;
+import com.esg.jfly.domain.entity.Airplane;
+import com.esg.jfly.infrastructure.hibernate.repository.HibernateRepository;
 import java.util.List;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
